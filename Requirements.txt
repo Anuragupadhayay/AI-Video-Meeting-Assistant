@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────
+# AI Meeting Assistant — Python Dependencies
+# ─────────────────────────────────────────────
+
+# ── Audio / Video Download ────────────────────
+yt-dlp>=2024.3.10               # Download audio from YouTube URLs
+pydub>=0.25.1                   # Audio file manipulation / format conversion
+ffmpeg-python>=0.2.0            # FFmpeg bindings (requires ffmpeg binary installed)
+
+# ── Speech-to-Text (Local Whisper) ───────────
+openai-whisper>=20231117        # Local Whisper transcription
+# torch and torchaudio are required by Whisper — install the CPU or CUDA build manually:
+# CPU:  pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+# CUDA: pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# ── Translation (Hindi → English) ────────────
+deep-translator>=1.11.4         # Hindi-to-English translation (Google Translate backend)
+# Alternative: langdetect for auto-detecting input language
+langdetect>=1.0.9
+
+# ── LLM / LangChain (LCEL + Mistral) ─────────
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-mistralai>=0.1.0      # MistralAI chat model integration
+mistralai>=0.4.0                # Mistral API client
+
+# ── RAG — Embeddings & Vector Store ──────────
+chromadb>=0.5.0                 # Vector database for RAG pipeline
+sentence-transformers>=2.7.0    # HuggingFace embedding models (e.g. all-MiniLM-L6-v2)
+langchain-huggingface>=0.0.3    # HuggingFaceEmbeddings wrapper for LangChain
+
+# ── Streamlit UI ──────────────────────────────
+streamlit>=1.35.0               # Web UI framework
+streamlit-extras>=0.4.3         # Extra Streamlit components (optional but useful)
+
+# ── Export — PDF & TXT ────────────────────────
+fpdf2>=2.7.9                    # Generate PDF export
+reportlab>=4.1.0                # Alternative PDF generation (richer formatting)
+
+# ── Utilities ─────────────────────────────────
+python-dotenv>=1.0.1            # Load API keys from .env file
+tqdm>=4.66.0                    # Progress bars
+numpy>=1.26.0                   # Numerical ops (Whisper / embeddings dependency)
+tiktoken>=0.7.0                 # Token counting for LangChain splitters
