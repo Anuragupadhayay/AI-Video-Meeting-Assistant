@@ -105,7 +105,7 @@ AI-Video-Meeting-Assistant/
 ├── requirements.txt       # Production cloud deployment dependencies
 └── README.md              # Project documentation
 
-```markdown
+```
 ## 👨‍💻 Author
 
 **Anurag Upadhyaya**
