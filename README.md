@@ -104,10 +104,9 @@ AI-Video-Meeting-Assistant/
 ├── main.py                # Command-line execution pipeline
 ├── requirements.txt       # Production cloud deployment dependencies
 └── README.md              # Project documentation
----
 
+```markdown
 ## 👨‍💻 Author
 
 **Anurag Upadhyaya**
-
-- GitHub: [@Anuragupadhayay](https://github.com/Anuragupadhayay)
+* GitHub: [@Anuragupadhayay](https://github.com/Anuragupadhayay)
