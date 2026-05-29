@@ -89,6 +89,8 @@ To deploy this pipeline to cloud infrastructures like Streamlit Community Cloud,
 ---
 
 ## 📂 Project Structure
+
+```text
 AI-Video-Meeting-Assistant/
 ├── core/
 │   ├── vector_store.py    # ChromaDB vector database initialization
@@ -102,7 +104,6 @@ AI-Video-Meeting-Assistant/
 ├── main.py                # Command-line execution pipeline
 ├── requirements.txt       # Production cloud deployment dependencies
 └── README.md              # Project documentation
-
 ---
 
 ## 👨‍💻 Author
