@@ -44,3 +44,4 @@ tqdm>=4.66.0                    # Progress bars
 numpy>=1.26.0                   # Numerical ops (Whisper / embeddings dependency)
 tiktoken>=0.7.0                 # Token counting for LangChain splitters
 audioop-lts
+pysqlite3-binary
