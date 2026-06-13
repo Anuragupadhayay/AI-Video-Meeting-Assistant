@@ -2,7 +2,6 @@
 
 An automated, production-ready AI pipeline that downloads meeting recordings or video URLs, transcribes them using local/API audio intelligence, structures data into a vector store, and extracts deep actionable insights (summaries, action items, key decisions, and open questions) using Large Language Models.
 
-🔗 **Live Production Link:** [AI Video Meeting Assistant Live Deploy](https://ai-video-meeting-assistant-crbdvtu4xec55uuskw4z9x.streamlit.app/)
 
 ---
 
